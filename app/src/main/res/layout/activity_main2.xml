@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/Text1"
-        android:layout_width="126dp"
-        android:layout_height="66dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginTop="120dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"

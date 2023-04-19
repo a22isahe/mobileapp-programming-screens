@@ -19,7 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if(extras!= null) {
-            String displayText = extras.getString("Text");
+            String displayText = extras.getString("Text") + ". Den här texten är främmande!";
             text.setText(displayText);
         }
         button2.setOnClickListener(new View.OnClickListener() {
