@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent1 = new Intent(MainActivity.this, MainActivity2.class);
+                intent1.putExtra("Text", "Du har kommit till Activity2");
                 startActivity(intent1);
             }
         });
